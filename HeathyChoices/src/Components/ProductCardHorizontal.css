@@ -1,0 +1,126 @@
+.Product-card-horizontal{
+    position: relative;
+    width: 360px;
+    height: 180px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+.product-card{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-cover{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.item-name{
+    position: absolute;
+    left: 46.11%;
+    right: 17.5%;
+    top: 0%;
+    bottom: 79.8%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.description{
+    position: absolute;
+    left: 46.11%;
+    right: 17.5%;
+    top: 20.2%;
+    bottom: 62.07%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.favorite{
+    position: absolute;
+    left: 46.11%;
+    right: 17.5%;
+    top: 45%;
+    bottom: 0%;
+
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.image-product-1{
+    background-color: black;
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 0%;
+    top: 0%;
+}
+
+.shop-button-group{
+    position: absolute;
+    width: 128px;
+    height: 36px;
+    left: 0px;
+    top: 109px;
+}
+
+.shop-button{
+    position: absolute;
+    left: 0%;
+    right: 64.44%;
+    top: 73.4%;
+    bottom: 9.85%;
+
+    background: #0B7979;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.rating{
+    position: absolute;
+    left: 46.11%;
+    right: 18.06%;
+    top: 35.81%;
+    bottom: 54.83%;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

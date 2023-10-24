@@ -1,0 +1,130 @@
+.page{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+}
+
+.navbar-text{
+    position: absolute;
+    left: 5.56%;
+    right: 47.22%;
+    top: 28.57%;
+    bottom: 25.71%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-frame{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+
+.image-product{
+    position: relative;
+    width: min(100vw, 100vh);
+    height: min(100vw, 100vh);
+    background-color: aqua;
+}
+
+.img-cover{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.button-rating{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+.shop-button{
+    position: relative;
+    width: 100%;
+}
+
+.rating{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.metric-summary{
+    position: relative;
+    width: 100%;
+    height: 221px;
+}
+
+.summary-label{
+    position: relative;
+    width: 304px;
+    height: 28px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.metric-advice{
+    position: relative;
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.advice-label{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.advice-detail{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 5px;
+    color: #FFFFFF;     
+}
